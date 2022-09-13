@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-char *sh = "Holberton";
+char *sh = "_putchar";
 
 	while (*sh)
 	{
 		_putchar(*sh);
 		sh++;
 	}
-	_putchar('\n');	
+	_putchar('\n');
 	return (0);
 }
